@@ -118,3 +118,49 @@ Write a script that computes the score average of all records in the table secon
 	The result column name should be average
 	The database name will be passed as an argument of the mysql command
 
+15. Number by score
+
+Write a script that lists the number of records with the same score in the table second_table of the database hbtn_0c_0 in your MySQL server.
+
+	The result should display:
+		the score
+		the number of records for this score with the label number
+	The list should be sorted by the number of records (descending)
+	The database name will be passed as an argument to the mysql command
+
+16. Say my name
+
+Write a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
+
+	Don’t list rows without a name value
+	Results should display the score and the name (in this order)
+	Records should be listed by descending score
+	The database name will be passed as an argument to the mysql command
+
+17. Go to UTF8
+
+Write a script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server.
+
+You need to convert all of the following to UTF8:
+
+	Database hbtn_0c_0
+	Table first_table
+	Field name in first_table
+
+18. Temperatures #0
+
+Import in hbtn_0c_0 database this table dump: download
+
+Write a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
+
+19. Temperatures #1
+
+Import in hbtn_0c_0 database this table dump: download (same as Temperatures #0)
+
+Write a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending)
+
+20. Temperatures #2
+
+Import in hbtn_0c_0 database this table dump: download (same as Temperatures #0)
+
+Write a script that displays the max temperature of each state (ordered by State name).
